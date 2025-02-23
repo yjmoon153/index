@@ -1,0 +1,21 @@
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+@media screen and (max-width: 500px) {
+	.flex-container {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+}
+
+body {
+	font: serif;
+	background-color: beige;
+	padding: 20px;
+	line-height: 1.6;
+}
